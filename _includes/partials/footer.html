@@ -1,0 +1,50 @@
+
+  </main>
+  <footer id="footer">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 home-logo py-2">
+          <a href="https://next-generation-eu.europa.eu/index_en" target="_blank">
+            <img class="img-fluid p-1" src="/assets/images/next_gen_eu_blue.png" alt="Funded by the European Union - Next Generation EU"/>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 home-logo py-2">
+          <a href="https://www.mur.gov.it" target="_blank">
+            <img class="img-fluid p-1" src="/assets/images/mur_blue.png" alt="Logo of the Italian MUR"/>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 home-logo py-2">
+          <a href="https://www.italiadomani.gov.it/" target="_blank">
+            <img class="img-fluid p-1" src="/assets/images/italia_domani_blue.png" alt="Logo of the Italia Domani program"/>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 home-logo py-2">
+          <a href="https://www.fondazione-fair.it/" target="_blank">
+            <img class="img-fluid p-1" src="/assets/images/fair_blue.png" alt="Logo of the FAIR foundation"/>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="credits">
+      <div class="container">
+        <div class="row">
+          <div class="col-sx-12 px-4">
+            Website designed by <a href="https://luistar.github.io" target="_blank">
+            Luigi Libero Lucio Starace</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  {%- include partials/modal_link.html -%}
+
+  {%- if site.conference.live.streaming.enable -%}
+    {%- include partials/modal_live.html -%}
+  {%- endif -%}
+
+  <!-- Append build time to avoid caching of live program embedded in JavaScript file -->
+  <script src="{{ site.baseurl }}/assets/js/main.js?t={{ site.time | date: "%s" }}"></script>
+
+</body>
+</html>

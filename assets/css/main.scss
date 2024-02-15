@@ -1,0 +1,160 @@
+---
+---
+
+//@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+$primary: #193d88;
+$info: #64a9dd ;
+$warning: #f8b258;
+$danger: #eb6666;
+$purple: #78579f;
+$violet: #ff65f0;
+$cyan: #007c8a;
+
+$fair_slides_bg: #fefbf2;
+$fair_slides_footer: $primary;// #c48e48;
+
+$font-family-base: "Titillium Web";
+$font-size-base: 1.2rem;
+//$line-height-base: 22px;
+
+@import 'conference';
+
+.ws-title {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: 700;
+  color: $primary;
+  // background-image: linear-gradient(90deg, $info 0%, $danger 33%, $warning 66%, $purple 90%);
+  // background-clip: text;
+  // -webkit-text-fill-color: transparent;
+}
+
+hr {
+  border-bottom: 5px solid transparent;
+  border-image: linear-gradient(90deg, $info 0%, $danger 33%, $warning 66%, $purple 90%);
+    border-image-slice: 100%;
+  border-image-slice: 1;
+  width: 100%;
+}
+
+.ws-subtitle {
+  font-size: .5em;
+}
+
+
+.navbar-subtitle {
+  font-weight:200;
+  font-size: .75em;
+  line-height: 0em;
+}
+
+.navbar-title {
+  display:block;
+  font-size:1.25em;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.jumbotron {
+  //background-color: $fair_slides_bg;
+  //background-color: white;
+  // border-bottom: 5px solid transparent;
+  // border-image: linear-gradient(90deg, $info 0%, $danger 33%, $warning 66%, $purple 100%);
+  //   border-image-slice: 100%;
+  // border-image-slice: 1;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+body {
+  display: flex; 
+  flex-direction: column;
+  height: 100vh;
+}
+
+header, footer {
+  flex-grow: 0;
+}
+main {
+  flex-grow: 1;
+}
+
+#footer {
+  margin-top: 1em;
+  background-color: $fair_slides_footer;
+  color: white;
+  font-weight: 500;
+}
+#credits {
+  background-color: darken($fair_slides_footer,5);
+  font-size: .8em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  a {
+    color: white;
+  }
+}
+
+
+.navbar-brand {
+  flex-grow: 1;
+}
+
+.home-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Change table style for the program page */
+.table {
+  width: 100%;
+  th.col-title {
+    width: 20px;
+    min-width: 20px;
+    max-width:20px;
+  }
+}
+
+.location-picture {
+  max-height: 300px;
+  object-fit: cover;
+  width: 100%;
+  object-position: 80% 90%;
+}
+
+
+/* Additional styles for program table colors */
+.border-soft-purple {
+  border-color: lighten($purple, 30);
+  border-left-width: $alert-border-width;
+  border-left-style: solid;
+} 
+
+.bg-soft-purple {
+  background-color: lighten($purple, 40);
+}
+
+.border-soft-pink {
+  border-color: lighten($violet, 20);
+  border-left-width: $alert-border-width;
+  border-left-style: solid;
+} 
+
+.bg-soft-pink {
+  background-color: lighten($violet, 25);
+}
+
+
+.border-soft-brown {
+  border-color: lighten($cyan, 30);
+  border-left-width: $alert-border-width;
+  border-left-style: solid;
+} 
+
+.bg-soft-brown {
+  background-color: lighten($cyan, 65);
+}
