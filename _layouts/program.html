@@ -191,7 +191,7 @@
     </div>
   {%- endif -%}
 
-  {%- if site.conference.talks.main_categories %}
+  {%- if site.conference.talks.main_categories and site.show_main_categories %}
     <h5 class="mt-4">{{ site.data.lang[site.conference.lang].program.legend | default: "Caption" }}</h5>
       {%- for main_cat in site.conference.talks.main_categories %}
         <div class="d-block d-sm-inline-block m-1 p-1 pl-2 pr-2 border-soft-{{ main_cat.color }} bg-soft-{{ main_cat.color }} font-weight-normal">

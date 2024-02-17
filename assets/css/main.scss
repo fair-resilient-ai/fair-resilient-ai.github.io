@@ -113,9 +113,9 @@ main {
 .table {
   width: 100%;
   th.col-title {
-    width: 20px;
-    min-width: 20px;
-    max-width:20px;
+    width: 60px;
+    min-width: 60px;
+    max-width:60px;
   }
 }
 
@@ -126,8 +126,20 @@ main {
   object-position: 80% 90%;
 }
 
+/*Style for events with no main category*/
+.alert- {
+  color: darken($purple, 30);
+  background-color: lighten($purple, 40);
+  border-color: lighten($purple, 30);
+}
 
 /* Additional styles for program table colors */
+.alert-purple {
+  color: darken($purple, 30);
+  background-color: lighten($purple, 40);
+  border-color: lighten($purple, 30);
+}
+
 .border-soft-purple {
   border-color: lighten($purple, 30);
   border-left-width: $alert-border-width;
@@ -136,6 +148,13 @@ main {
 
 .bg-soft-purple {
   background-color: lighten($purple, 40);
+}
+
+
+.alert-pink {
+  color: darken($violet, 30);
+  background-color: lighten($violet, 40);
+  border-color: lighten($violet, 30);
 }
 
 .border-soft-pink {

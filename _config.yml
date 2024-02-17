@@ -9,6 +9,8 @@ url: "https://fair-resilient-ai.github.io" # the base hostname & protocol for yo
 show_program: true
 subtitle: February 27, 2024 - Naples, Italy
 
+show_main_categories: true
+
 theme: jekyll-theme-conference
 
 # Build settings
@@ -61,7 +63,7 @@ conference:
   lang: en
 
   # Show theme errors:
-  show_errors: True
+  show_errors: false
 
   # Navigation bar
   navigation:
@@ -71,13 +73,13 @@ conference:
     #   url: 'https://future-ai-research.it/'
     links:
       - name: Program
-        disabled: true
+        disabled: false
         relative_url: /program/
       - name: Talks
-        disabled: true
+        disabled: false
         relative_url: /talks/
       - name: Speakers
-        disabled: true
+        disabled: false
         relative_url: /speakers/
       - name: Location
         relative_url: /location/
@@ -104,13 +106,13 @@ conference:
     #   img: ''
     links:
       - name: Program
-        disabled: true
+        disabled: false
         relative_url: /program/
         icon: calendar
       - name: Location
         relative_url: /location/
         icon: map-marker
-        disabled: true
+        disabled: false
       - name: Registration
         disabled: true
         absolute_url: ''
@@ -148,24 +150,28 @@ conference:
   talks:
     # Talk categories
     main_categories:
-      - name: WP1
-        color: info
-      - name: WP2
-        color: danger
-      - name: WP3
-        color: warning
-      - name: WP4
-        color: purple
-      - name: WP5
-        color: success
-      - name: WP6
-        color: dark
-      - name: WP7
+      # - name: WP1
+      #   color: info
+      # - name: WP2
+      #   color: danger
+      # - name: WP3
+      #   color: warning
+      # - name: WP4
+      #   color: purple
+      # - name: WP5
+      #   color: success
+      # - name: WP6
+      #   color: dark
+      # - name: WP7
+      #   color: primary
+      # - name: WP8
+      #   color: brown
+      # - name: WP9
+      #   color: pink
+      - name: General
         color: primary
-      - name: WP8
-        color: brown
-      - name: WP9
-        color: pink
+      - name: Break
+        color: dark
           
 
     # Hide icons on talk overview page
@@ -200,7 +206,7 @@ conference:
     url: '/program'
 
     # Time steps in program table
-    time_steps: 30 # in minutes
+    time_steps: 15 # in minutes
 
     # Show intermediary time steps (next to full hours)
     show_alltimes: true

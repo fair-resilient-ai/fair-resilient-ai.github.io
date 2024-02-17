@@ -1,7 +1,7 @@
 ---
 name: Eu Nisl Nunc Mi Ipsum Faucibus
 speakers:
-  - The Anonymous
+  - 
 categories:
   - WP3
   - Talk

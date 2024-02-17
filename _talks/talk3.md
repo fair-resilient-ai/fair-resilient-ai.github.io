@@ -1,7 +1,7 @@
 ---
 name: Arcu Non Odio
 speakers:
-  - Alex Rosales
+  - 
 categories:
   - WP2
   - Talk
