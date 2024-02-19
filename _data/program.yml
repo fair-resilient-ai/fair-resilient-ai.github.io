@@ -17,13 +17,13 @@ days:
       - name: Lunch break
         time_start: '13:45'
         time_end: '14:30'
-      - name: Selected Scientific Highlights
+      - name: Selected Scientific Highlights (First Session)
         time_start: '14:30'
         time_end: '16:00'
       - name: Coffee break
         time_start: '16:00'
         time_end: '16:15'
-      - name: Selected Scientific Highlights
+      - name: Selected Scientific Highlights (Second Session)
         time_start: '16:15'
         time_end: '17:30'
 

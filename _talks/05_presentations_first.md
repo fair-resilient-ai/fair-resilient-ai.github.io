@@ -1,5 +1,5 @@
 ---
-name: Selected Scientific Highlights
+name: Selected Scientific Highlights (First Session)
 speakers:
   - 
 categories:
