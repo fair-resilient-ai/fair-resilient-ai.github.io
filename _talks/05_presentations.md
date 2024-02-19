@@ -1,5 +1,5 @@
 ---
-name: Presentation of Research Achievements
+name: Selected Scientific Highlights
 speakers:
   - 
 categories:

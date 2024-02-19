@@ -17,7 +17,7 @@ days:
       - name: Lunch break
         time_start: '13:45'
         time_end: '14:30'
-      - name: Presentation of Research Achievements
+      - name: Selected Scientific Highlights
         time_start: '14:30'
         time_end: '17:30'
 
