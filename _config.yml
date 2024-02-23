@@ -113,9 +113,9 @@ conference:
         relative_url: /location/
         icon: map-marker
         disabled: false
-      - name: Registration
-        disabled: true
-        absolute_url: ''
+      # - name: Registration
+      #   disabled: true
+      #   absolute_url: ''
 
   # Information boxes
   # info_bars:

@@ -9,5 +9,5 @@ The first FAIR Workshop on Resilient AI, organized in Naples by the Spoke 3 on "
 The Workshop will explore innovative approaches to training AI models with real-world data, novel theories, methodologies, and tools to overcome current limitations in AI-intensive software development, while also navigating the ethical and legal complexities of AI applications in real-world scenarios.
 
 Join us in Naples for a stimulating exchange of ideas, insights, and discoveries.
-Stay tuned for updates on talks, speakers, and registration details. 
+Stay tuned for updates on talks and speakers. 
 We look forward to welcoming you to the FAIR Workshop on Resilient AI!
