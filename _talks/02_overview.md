@@ -1,7 +1,15 @@
 ---
 name: Overview of the Spoke Objectives and Work Packages
 speakers:
-  - 
+  - Antonio Maria Rinaldi
+  - Elio Masciari
+  - Francesco Piccialli
+  - Daniel Riccio
+  - Paolo Soda
+  - Vincenzo Moscato
+  - Marco Faella
+  - Michela Tuozzo
+  - Silvia Rossi
 categories:
   - Talks
   - General

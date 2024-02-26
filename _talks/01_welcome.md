@@ -1,7 +1,8 @@
 ---
 name: Welcome and Introduction
 speakers:
-  - 
+  - Giuseppe De Pietro
+  - Sergio Di Martino
 categories:
   - General
 ---
