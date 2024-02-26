@@ -1,0 +1,173 @@
+{
+    "days": [
+        {
+            "name": "Feb. 27, Tuesday",
+            "hash": "tu",
+            "date": "2024-02-27"
+        }
+    ],
+
+    "rooms": {
+        "Biblioteca Storica": {
+            "id": 1,
+            "name": "Biblioteca Storica",
+            "href": ""
+        }
+    },
+
+    "speakers": {
+        "Antonio Maria Rinaldi" : {
+            "name": "Antonio Maria Rinaldi",
+            "href": "/speakers/antonio-maria-rinaldi/"
+        },
+        "Carlo Sansone" : {
+            "name": "Carlo Sansone",
+            "href": "/speakers/carlo-sansone/"
+        },
+        "Daniel Riccio" : {
+            "name": "Daniel Riccio",
+            "href": "/speakers/daniel-riccio/"
+        },
+        "Elio Masciari" : {
+            "name": "Elio Masciari",
+            "href": "/speakers/elio-masciari/"
+        },
+        "Francesco Piccialli" : {
+            "name": "Francesco Piccialli",
+            "href": "/speakers/francesco-piccialli/"
+        },
+        "Genoveffa Tortora" : {
+            "name": "Genoveffa Tortora",
+            "href": "/speakers/genoveffa-tortora/"
+        },
+        "Giovanna De Minico" : {
+            "name": "Giovanna De Minico",
+            "href": "/speakers/giovanna-de-minico/"
+        },
+        "Giovanna Sannino" : {
+            "name": "Giovanna Sannino",
+            "href": "/speakers/giovanna-sannino/"
+        },
+        "Giuseppe De Pietro" : {
+            "name": "Giuseppe De Pietro",
+            "href": "/speakers/giuseppe-de-pietro/"
+        },
+        "Guglielmo Tamburrini" : {
+            "name": "Guglielmo Tamburrini",
+            "href": "/speakers/guglielmo-tamburrini/"
+        },
+        "Marco Faella" : {
+            "name": "Marco Faella",
+            "href": "/speakers/marco-faella/"
+        },
+        "Massimo Esposito" : {
+            "name": "Massimo Esposito",
+            "href": "/speakers/massimo-esposito/"
+        },
+        "Michela Tuozzo" : {
+            "name": "Michela Tuozzo",
+            "href": "/speakers/michela-tuozzo/"
+        },
+        "Paolo Soda" : {
+            "name": "Paolo Soda",
+            "href": "/speakers/paolo-soda/"
+        },
+        "Sergio Di Martino" : {
+            "name": "Sergio Di Martino",
+            "href": "/speakers/sergio-di-martino/"
+        },
+        "Silvia Rossi" : {
+            "name": "Silvia Rossi",
+            "href": "/speakers/silvia-rossi/"
+        }
+    },
+
+    "talks": {
+        "Biblioteca Storica": [
+            {
+                "name": "Welcome and Introduction",
+                "href": "/talks/01_welcome/",
+                "color": "primary",
+                "speakers": [
+                    "Giuseppe De Pietro",
+                    "Sergio Di Martino"
+                ],
+                "start": 1709031600,
+                "end": 1709032500
+            },
+            {
+                "name": "Overview of the Spoke Objectives and Work Packages",
+                "href": "/talks/02_overview/",
+                "color": "primary",
+                "speakers": [
+                    "Antonio Maria Rinaldi",
+                    "Elio Masciari",
+                    "Francesco Piccialli",
+                    "Daniel Riccio",
+                    "Paolo Soda",
+                    "Giovanna Sannino",
+                    "Marco Faella",
+                    "Michela Tuozzo",
+                    "Silvia Rossi"
+                ],
+                "start": 1709032500,
+                "end": 1709037000
+            },
+            {
+                "name": "AI in the wild - Sfide e Prospettive",
+                "href": "/talks/03_panel_discussion/",
+                "color": "primary",
+                "speakers": [
+                    "Giovanna De Minico",
+                    "Giuseppe De Pietro",
+                    "Carlo Sansone",
+                    "Paolo Soda",
+                    "Guglielmo Tamburrini",
+                    "Genoveffa Tortora"
+                ],
+                "start": 1709037000,
+                "end": 1709041500
+            },
+            {
+                "name": "Lunch break",
+                "href": "/talks/04_lunch/",
+                "color": "dark",
+                "speakers": [
+                    ""
+                ],
+                "start": 1709041500,
+                "end": 1709044200
+            },
+            {
+                "name": "Selected Scientific Highlights (First Session)",
+                "href": "/talks/05_presentations_first/",
+                "color": "primary",
+                "speakers": [
+                    "Sergio Di Martino"
+                ],
+                "start": 1709044200,
+                "end": 1709049600
+            },
+            {
+                "name": "Coffee break",
+                "href": "/talks/coffee_break/",
+                "color": "dark",
+                "speakers": [
+                    ""
+                ],
+                "start": 1709049600,
+                "end": 1709050500
+            },
+            {
+                "name": "Selected Scientific Highlights (Second Session)",
+                "href": "/talks/05_presentations_second/",
+                "color": "primary",
+                "speakers": [
+                    "Massimo Esposito"
+                ],
+                "start": 1709050500,
+                "end": 1709055000
+            }
+        ]
+    }
+}
