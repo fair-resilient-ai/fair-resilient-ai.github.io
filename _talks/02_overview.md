@@ -6,7 +6,7 @@ speakers:
   - Francesco Piccialli
   - Daniel Riccio
   - Paolo Soda
-  - Vincenzo Moscato
+  - Giovanna Sannino
   - Marco Faella
   - Michela Tuozzo
   - Silvia Rossi
