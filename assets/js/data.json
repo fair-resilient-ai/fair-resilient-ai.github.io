@@ -1,0 +1,280 @@
+{
+    "days": [
+        {
+            "name": "Mar. 6, Thursday",
+            "hash": "th",
+            "date": "2025-03-06"
+        },
+        {
+            "name": "Mar. 7, Friday",
+            "hash": "fr",
+            "date": "2025-03-07"
+        }
+    ],
+
+    "rooms": {
+        "Biblioteca Storica": {
+            "id": 1,
+            "name": "Biblioteca Storica",
+            "href": ""
+        }
+    },
+
+    "speakers": {
+        "Aniello Murano" : {
+            "name": "Aniello Murano",
+            "href": "/speakers/aniello-murano/"
+        },
+        "Anna Corazza" : {
+            "name": "Anna Corazza",
+            "href": "/speakers/anna-corazza/"
+        },
+        "Antonio Galli" : {
+            "name": "Antonio Galli",
+            "href": "/speakers/antonio-galli/"
+        },
+        "Antonio Maria Rinaldi" : {
+            "name": "Antonio Maria Rinaldi",
+            "href": "/speakers/antonio-maria-rinaldi/"
+        },
+        "Piero A. Bonatti" : {
+            "name": "Piero Bonatti",
+            "href": "/speakers/bonatti/"
+        },
+        "Carlo Sansone" : {
+            "name": "Carlo Sansone",
+            "href": "/speakers/carlo-sansone/"
+        },
+        "Daniel Riccio" : {
+            "name": "Daniel Riccio",
+            "href": "/speakers/daniel-riccio/"
+        },
+        "Davide Marocco" : {
+            "name": "Davide Marocco",
+            "href": "/speakers/davide-marocco/"
+        },
+        "I. De Falco" : {
+            "name": "I. De Falco",
+            "href": "/speakers/de-falco/"
+        },
+        "Elio Masciari" : {
+            "name": "Elio Masciari",
+            "href": "/speakers/elio-masciari/"
+        },
+        "Maria Giovanna Elmo" : {
+            "name": "Maria Giovanna Elmo",
+            "href": "/speakers/elmo/"
+        },
+        "Flora Amato" : {
+            "name": "Flora Amato",
+            "href": "/speakers/flora-amato/"
+        },
+        "Francesco Piccialli" : {
+            "name": "Francesco Piccialli",
+            "href": "/speakers/francesco-piccialli/"
+        },
+        "Genoveffa Tortora" : {
+            "name": "Genoveffa Tortora",
+            "href": "/speakers/genoveffa-tortora/"
+        },
+        "Giovanna De Minico" : {
+            "name": "Giovanna De Minico",
+            "href": "/speakers/giovanna-de-minico/"
+        },
+        "Giovanna Sannino" : {
+            "name": "Giovanna Sannino",
+            "href": "/speakers/giovanna-sannino/"
+        },
+        "Giuseppe De Pietro" : {
+            "name": "Giuseppe De Pietro",
+            "href": "/speakers/giuseppe-de-pietro/"
+        },
+        "Michela Gravina" : {
+            "name": "Michela Gravina",
+            "href": "/speakers/gravina/"
+        },
+        "Valerio Guarrasi" : {
+            "name": "Valerio Guarrasi",
+            "href": "/speakers/guarrasi/"
+        },
+        "Guglielmo Tamburrini" : {
+            "name": "Guglielmo Tamburrini",
+            "href": "/speakers/guglielmo-tamburrini/"
+        },
+        "Marco Faella" : {
+            "name": "Marco Faella",
+            "href": "/speakers/marco-faella/"
+        },
+        "Massimo Esposito" : {
+            "name": "Massimo Esposito",
+            "href": "/speakers/massimo-esposito/"
+        },
+        "Ciro Mennella" : {
+            "name": "Ciro Mennella",
+            "href": "/speakers/mennella/"
+        },
+        "Michela Tuozzo" : {
+            "name": "Michela Tuozzo",
+            "href": "/speakers/michela-tuozzo/"
+        },
+        "Paolo Soda" : {
+            "name": "Paolo Soda",
+            "href": "/speakers/paolo-soda/"
+        },
+        "Sergio Di Martino" : {
+            "name": "Sergio Di Martino",
+            "href": "/speakers/sergio-di-martino/"
+        },
+        "Silvia Rossi" : {
+            "name": "Silvia Rossi",
+            "href": "/speakers/silvia-rossi/"
+        }
+    },
+
+    "talks": {
+        "Biblioteca Storica": [
+            {
+                "name": "Spoke 3 \"Resilient AI\"&colon;  Progress Report",
+                "href": "/talks/01_welcome/",
+                "color": "primary",
+                "speakers": [
+                    "Carlo Sansone",
+                    "Sergio Di Martino"
+                ],
+                "start": 1741251600,
+                "end": 1741253400
+            },
+            {
+                "name": "Focus on fundational Resilient AI (Session 1)",
+                "href": "/talks/02_session1/",
+                "color": "primary",
+                "speakers": [
+                    "Aniello Murano",
+                    "Elio Masciari",
+                    "Flora Amato",
+                    "Anna Corazza"
+                ],
+                "start": 1741253400,
+                "end": 1741258800
+            },
+            {
+                "name": "Coffee break",
+                "href": "/talks/coffee_break/",
+                "color": "dark",
+                "speakers": [
+                    ""
+                ],
+                "start": 1741258800,
+                "end": 1741260600
+            },
+            {
+                "name": "Focus on fundational Resilient AI (Session 2)",
+                "href": "/talks/03_session2/",
+                "color": "primary",
+                "speakers": [
+                    "Daniel Riccio",
+                    "Davide Marocco",
+                    "Antonio Galli",
+                    "I. De Falco",
+                    "Marco Faella"
+                ],
+                "start": 1741260600,
+                "end": 1741266000
+            },
+            {
+                "name": "Light lunch",
+                "href": "/talks/04_lunch/",
+                "color": "dark",
+                "speakers": [
+                    ""
+                ],
+                "start": 1741266000,
+                "end": 1741268700
+            },
+            {
+                "name": "Focus on AI and Healthcare",
+                "href": "/talks/05_AI-Healthcare/",
+                "color": "primary",
+                "speakers": [
+                    "Ciro Mennella",
+                    "Michela Gravina",
+                    "Valerio Guarrasi"
+                ],
+                "start": 1741268700,
+                "end": 1741272300
+            },
+            {
+                "name": "Focus on AI&colon; Aspetti Legali e di Privacy",
+                "href": "/talks/06_AI-legal-and-privacy-copy/",
+                "color": "primary",
+                "speakers": [
+                    "Piero A. Bonatti",
+                    "Michela Tuozzo",
+                    "Maria Giovanna Elmo"
+                ],
+                "start": 1741272300,
+                "end": 1741275000
+            },
+            {
+                "name": "Coffee break",
+                "href": "/talks/coffee_break/",
+                "color": "dark",
+                "speakers": [
+                    ""
+                ],
+                "start": 1741275000,
+                "end": 1741275900
+            },
+            {
+                "name": "The FAIR Spoke 3 Academic Research Partners&colon; The Projects and Preliminary Results",
+                "href": "/talks/07_academic-partners-copy/",
+                "color": "primary",
+                "speakers": [
+                    ""
+                ],
+                "start": 1741275900,
+                "end": 1741280400
+            },
+            {
+                "name": "Focus on AI e Trasferimento Tecnologico",
+                "href": "/talks/09_panel/",
+                "color": "primary",
+                "speakers": [
+                    "Giuseppe De Pietro"
+                ],
+                "start": 1741338000,
+                "end": 1741341600
+            },
+            {
+                "name": "Coffee break",
+                "href": "/talks/coffee_break/",
+                "color": "dark",
+                "speakers": [
+                    ""
+                ],
+                "start": 1741341600,
+                "end": 1741343400
+            },
+            {
+                "name": "Panel with the Companies awarded the Cascading Grant",
+                "href": "/talks/08_trasferimento-copy/",
+                "color": "primary",
+                "speakers": [
+                    ""
+                ],
+                "start": 1741343400,
+                "end": 1741348800
+            },
+            {
+                "name": "Wrap up, Discussion",
+                "href": "/talks/10_wrap/",
+                "color": "primary",
+                "speakers": [
+                    ""
+                ],
+                "start": 1741348800,
+                "end": 1741350600
+            }
+        ]
+    }
+}
