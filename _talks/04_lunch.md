@@ -1,5 +1,5 @@
 ---
-name: Lunch break
+name: Light lunch
 speakers:
   - 
 categories:

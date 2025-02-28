@@ -1,13 +1,13 @@
-title: 1st FAIR Workshop on Resilient AI
-title_homepage: <span class="ws-subtitle">1st FAIR Workshop on</span><span class="ws-title">Resilient AI</span>
-title_navbar: <span class="navbar-subtitle">1st FAIR Workshop on</span><span class="navbar-title">Resilient AI</span>
+title: 2nd FAIR Workshop on Resilient AI
+title_homepage: <span class="ws-subtitle">2nd FAIR Workshop on</span><span class="ws-title">Resilient AI</span>
+title_navbar: <span class="navbar-subtitle">2nd FAIR Workshop on</span><span class="navbar-title">Resilient AI</span>
 preposition: at
 description: >-
-  Official website of the 1st FAIR Workshop on Resilient AI. Naples, Italy, February 27, 2024.
+  Official website of the 2nd FAIR Workshop on Resilient AI. Naples, Italy, March 6-7, 2025.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fair-resilient-ai.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 show_program: true
-subtitle: February 27, 2024 - Naples, Italy
+subtitle: March 6-7, 2025 - Naples, Italy
 
 show_main_categories: true
 
@@ -113,9 +113,9 @@ conference:
         relative_url: /location/
         icon: map-marker
         disabled: false
-      - name: Streaming Link
-        icon: play-circle
-        absolute_url: https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzU4MDA3MTItM2YyMS00MjZjLWFlMDYtOTU1NDg3OWRkZWU0%40thread.v2/0?context=%7b%22Tid%22%3a%222fcfe26a-bb62-46b0-b1e3-28f9da0c45fd%22%2c%22Oid%22%3a%2272def432-61df-4c62-97db-ecf35466c3f0%22%7d
+      #- name: Streaming Link
+      #  icon: play-circle
+      #  absolute_url: https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzU4MDA3MTItM2YyMS00MjZjLWFlMDYtOTU1NDg3OWRkZWU0%40thread.v2/0?context=%7b%22Tid%22%3a%222fcfe26a-bb62-46b0-b1e3-28f9da0c45fd%22%2c%22Oid%22%3a%2272def432-61df-4c62-97db-ecf35466c3f0%22%7d
       # - name: Registration
       #   disabled: true
       #   absolute_url: ''
